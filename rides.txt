@@ -1,0 +1,256 @@
+
+    name: Afternoon Ride
+    type: Ride
+    distance: 35.31 miles
+    moving_time: 8410
+    elapsed_time: 8585
+    total_elevation_gain: 1015
+    start_date: 2023-08-15T14:50:10Z
+    achievement_count: 70
+    average_speed: 6.758
+    max_speed: 17.998
+    average_temp: 20
+    average_watts: 133.9
+    kilojoules: 1126.2
+    elev_high: 238
+    elev_low: -11.2
+    personal_record: 21
+    
+    name: Afternoon Ride
+    type: Ride
+    distance: 31.64 miles
+    moving_time: 7740
+    elapsed_time: 8295
+    total_elevation_gain: 532
+    start_date: 2023-08-14T17:36:08Z
+    achievement_count: 62
+    average_speed: 6.58
+    max_speed: 13.824
+    average_temp: 15
+    average_watts: 110.9
+    kilojoules: 858.3
+    elev_high: 114.4
+    elev_low: -3.4
+    personal_record: 29
+    
+    name: Reco
+    type: Ride
+    distance: 14.77 miles
+    moving_time: 3622
+    elapsed_time: 3694
+    total_elevation_gain: 367
+    start_date: 2023-08-13T17:28:41Z
+    achievement_count: 5
+    average_speed: 6.561
+    max_speed: 18.424
+    average_temp: 15
+    average_watts: 115.4
+    kilojoules: 417.9
+    elev_high: 256.6
+    elev_low: -13.6
+    personal_record: 3
+    
+    name: Marin 💯
+    type: Ride
+    distance: 121.38 miles
+    moving_time: 29438
+    elapsed_time: 38509
+    total_elevation_gain: 2374
+    start_date: 2023-08-12T08:37:08Z
+    achievement_count: 231
+    average_speed: 6.635
+    max_speed: 16.697
+    average_temp: 19
+    average_watts: 112.1
+    kilojoules: 3301.4
+    elev_high: 281.8
+    elev_low: 32.8
+    personal_record: 71
+    
+    name: Shakeout
+    type: Ride
+    distance: 17.39 miles
+    moving_time: 4601
+    elapsed_time: 8371
+    total_elevation_gain: 248
+    start_date: 2023-08-11T17:32:05Z
+    achievement_count: 4
+    average_speed: 6.084
+    max_speed: 12.108
+    average_temp: 13
+    average_watts: 91.3
+    kilojoules: 420.1
+    elev_high: 107.6
+    elev_low: -11
+    personal_record: 2
+    
+    name: Green Lights & Tailwind 🤌🏼
+    type: Ride
+    distance: 11.46 miles
+    moving_time: 2111
+    elapsed_time: 2157
+    total_elevation_gain: 186
+    start_date: 2023-08-08T13:24:14Z
+    achievement_count: 37
+    average_speed: 8.739
+    max_speed: 12.934
+    average_temp: 19
+    average_watts: 186.9
+    kilojoules: 394.5
+    elev_high: 137.8
+    elev_low: -5.8
+    personal_record: 24
+    
+    name: Morning Ride
+    type: Ride
+    distance: 56.31 miles
+    moving_time: 14529
+    elapsed_time: 18290
+    total_elevation_gain: 801
+    start_date: 2023-08-06T09:44:59Z
+    achievement_count: 82
+    average_speed: 6.238
+    max_speed: 16.142
+    average_temp: 24
+    average_watts: 95.1
+    kilojoules: 1381.2
+    elev_high: 162
+    elev_low: -19.2
+    personal_record: 47
+    
+    name: T-shirt Spin
+    type: Ride
+    distance: 35.18 miles
+    moving_time: 9294
+    elapsed_time: 10906
+    total_elevation_gain: 870
+    start_date: 2023-08-05T11:14:03Z
+    achievement_count: 38
+    average_speed: 6.092
+    max_speed: 17.768
+    average_temp: 21
+    average_watts: 110.9
+    kilojoules: 1031.1
+    elev_high: 239
+    elev_low: -15
+    personal_record: 13
+    
+    name: Paradise TT
+    type: Ride
+    distance: 58.48 miles
+    moving_time: 12564
+    elapsed_time: 13682
+    total_elevation_gain: 892
+    start_date: 2023-08-04T13:58:29Z
+    achievement_count: 122
+    average_speed: 7.491
+    max_speed: 16.077
+    average_temp: 19
+    average_watts: 129.9
+    kilojoules: 1631.7
+    elev_high: 126
+    elev_low: -9.2
+    personal_record: 45
+    
+    name: Z2
+    type: Ride
+    distance: 33.61 miles
+    moving_time: 8751
+    elapsed_time: 10315
+    total_elevation_gain: 946
+    start_date: 2023-08-03T13:30:06Z
+    achievement_count: 13
+    average_speed: 6.181
+    max_speed: 18.374
+    average_temp: 14
+    average_watts: 115.6
+    kilojoules: 1011.6
+    elev_high: 246.4
+    elev_low: -15.8
+    personal_record: 4
+    
+    name: Fresh Rubber
+    type: Ride
+    distance: 23.29 miles
+    moving_time: 4998
+    elapsed_time: 5120
+    total_elevation_gain: 596
+    start_date: 2023-08-02T14:48:09Z
+    achievement_count: 75
+    average_speed: 7.5
+    max_speed: 18.258
+    average_temp: 14
+    average_watts: 147.7
+    kilojoules: 738.3
+    elev_high: 269
+    elev_low: 3.4
+    personal_record: 26
+    
+    name: Middle of the Summer, Got a Hoodie On
+    type: Ride
+    distance: 18.55 miles
+    moving_time: 4488
+    elapsed_time: 4639
+    total_elevation_gain: 301
+    start_date: 2023-07-30T17:08:42Z
+    achievement_count: 1
+    average_speed: 6.652
+    max_speed: 12.828
+    average_temp: 16
+    average_watts: 101.5
+    kilojoules: 455.4
+    elev_high: 99
+    elev_low: -22.4
+    personal_record: 1
+    
+    name: Marin 🍻
+    type: Ride
+    distance: 60.11 miles
+    moving_time: 13975
+    elapsed_time: 15812
+    total_elevation_gain: 1069
+    start_date: 2023-07-29T09:52:37Z
+    achievement_count: 38
+    average_speed: 6.922
+    max_speed: 18.05
+    average_temp: 23
+    average_watts: 117.9
+    kilojoules: 1647.3
+    elev_high: 179.4
+    elev_low: -24.4
+    personal_record: 5
+    
+    name: Golden Coast 🔆
+    type: Ride
+    distance: 66.48 miles
+    moving_time: 15806
+    elapsed_time: 18750
+    total_elevation_gain: 1277
+    start_date: 2023-07-28T13:02:07Z
+    achievement_count: 168
+    average_speed: 6.769
+    max_speed: 16.606
+    average_temp: 21
+    average_watts: 118.5
+    kilojoules: 1873.2
+    elev_high: 245.6
+    elev_low: -7.4
+    personal_record: 61
+    
+    name: Reco
+    type: Ride
+    distance: 15.99 miles
+    moving_time: 3614
+    elapsed_time: 3694
+    total_elevation_gain: 228
+    start_date: 2023-07-23T17:21:38Z
+    achievement_count: 11
+    average_speed: 7.119
+    max_speed: 11.39
+    average_temp: 14
+    average_watts: 112.5
+    kilojoules: 406.7
+    elev_high: 115.4
+    elev_low: -3
+    personal_record: 0
+    
