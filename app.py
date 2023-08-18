@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from langchain.document_loaders import TextLoader
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.chat_models import ChatOpenAI
+from datetime import datetime
 import argparse
 import json
 import os
@@ -32,19 +33,19 @@ def convert_json_to_humanreadable():
     name: {activity["name"]}
     type: {activity["type"]}
     distance: {convert_meters_to_miles(activity["distance"])} miles
-    moving_time: {activity["moving_time"]}
-    elapsed_time: {activity["elapsed_time"]}
-    total_elevation_gain: {activity["total_elevation_gain"]}
-    start_date: {activity["start_date_local"]}
-    achievement_count: {activity["achievement_count"]}
-    average_speed: {activity["average_speed"]}
-    max_speed: {activity["max_speed"]}
-    average_temp: {activity["average_temp"]}
-    average_watts: {activity["average_watts"]}
-    kilojoules: {activity["kilojoules"]}
-    elev_high: {activity["elev_high"]}
-    elev_low: {activity["elev_low"]}
-    personal_records: {activity["pr_count"]}
+    moving_time: {convert_seconds_to_hours(activity["moving_time"])}
+    elapsed_time: {convert_seconds_to_hours(activity["elapsed_time"])}
+    total_elevation_gain: {convert_meters_to_feet(activity["total_elevation_gain"])} feet
+    start_date: {format_datetime(activity["start_date_local"])}
+    achievement_count: {activity["achievement_count"]} achievements
+    average_speed: {convert_mps_to_mph(activity["average_speed"])} mph
+    max_speed: {convert_mps_to_mph(activity["max_speed"])} mph
+    average_temp: {convert_celsius_to_fahrenheit(activity["average_temp"])} f
+    average_watts: {activity["average_watts"]} watts
+    kilojoules: {activity["kilojoules"]} kj
+    elev_high: {convert_meters_to_feet(activity["elev_high"])} feet
+    elev_low: {convert_meters_to_feet(activity["elev_low"])} feet
+    personal_records: {activity["pr_count"]} records
     """
     output.append(data)
 
@@ -58,6 +59,32 @@ def convert_json_to_humanreadable():
 
 def convert_meters_to_miles(meters: float) -> str:
   return f"{meters * 0.000621371:.2f}"
+
+
+def convert_seconds_to_hours(seconds: float) -> str:
+  hours = seconds // 3600
+  minutes = (seconds % 3600) // 60
+  return f"{hours} hours {minutes} mins"
+
+
+def convert_meters_to_feet(meters: float) -> str:
+  return str(int(meters * 3.28084))
+
+
+def format_datetime(date: str) -> str:
+  input_format = "%Y-%m-%dT%H:%M:%SZ"
+  output_format = "%b %dth, %Y %I:%M%p"
+  parsed_date = datetime.strptime(date, input_format)
+  formatted_date = parsed_date.strftime(output_format)
+  return formatted_date
+
+
+def convert_mps_to_mph(mps: float) -> str:
+  return f"{mps * 2.23694:.2f}"
+
+
+def convert_celsius_to_fahrenheit(celsius: int) -> str:
+  return str(int((celsius * 9/5) + 32))
 
 
 if __name__ == "__main__":
